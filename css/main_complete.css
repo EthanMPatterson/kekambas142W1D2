@@ -33,8 +33,11 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
     padding: 25px;
     margin: 20px;
 }
-
-/* 
+ 
+/* Total Size:
+    Height: 100 px (content) + 2*25px (padding) + 2*5px (border) + 2*20px (margin) =200px 
+    Width:
+     /* 
 Total Size:
     Height: 100px (content) + 2*25px (padding) + 2*4px (border) + 2*20px (margin) = 198px
     Width: 300px (content) + 2*25px (padding) + 2*4px (border) + 2*20px (margin) = 398px
