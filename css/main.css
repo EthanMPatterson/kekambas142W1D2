@@ -132,11 +132,25 @@ div[title$="border"]{
     background-color: greenyellow;
 }
 
+.block-level > h3 {
+    border: 3px solid magenta;
+    display: inline;
+}
+
+/* #displays a { 
+    border: 2px dashed red;
+    display: block; 
+} /* 
+
 /* Simple Selector */
 /* element: grabs all of the elements base on the element name e.g h1,h2,p,div{} */
 
 
 /* class: grabs all of the elements with the class name. begins with a dot (.) e.g. .className */
+
+#middle {
+    border: 3px solid teal;
+}
 
 
 /* id: grabs the element with the id. begins with an octothorpe (#) e.g. #idName */
